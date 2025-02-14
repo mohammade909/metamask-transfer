@@ -24,6 +24,7 @@ createWeb3Modal({
   projectId: 'b00311bb20f1d71b977b474eac2b7dcd' // Get this from cloud.walletconnect.com
 });
 
+
 const USDT_ADDRESS = '0x55d398326f99059fF775485246999027B3197955'; // BSC USDT
 const USDT_ABI = [
   'function balanceOf(address) view returns (uint256)',
